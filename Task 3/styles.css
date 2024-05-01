@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+body {
+    background-image: url('backgrd.jpg');
+    /* Replace 'background-image.jpg' with your image file */
+    background-size: 100%;
+    background-position: center;
+    color: black;
+    /* Set text color to contrast with the background */
+    font-family: Arial, sans-serif;
+    /* Set the font family as needed */
+}
+
+.bordered-element {
+    width: 500px;
+    height: 300px;
+    border: 3px solid black;
+    padding: 10px;
+    
+    background-image: url('backgrd.jpg');
+        /* Replace 'background-image.jpg' with your image file */
+    background-size: 100%;
+    background-position: center;
+    color: black;
+        /* Set text color to contrast with the background */
+    font-family: Arial, sans-serif;
+        /* Set the font family as needed */
+    
+}
+
+.container {
+    text-align: center;
+}
+
+input,
+button {
+    margin: 5px;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#result1,
+#result2 {
+    margin-top: 10px;
+}
